@@ -127,4 +127,4 @@ flask_venv/
 dmypy.json
 
 # Pyre type checker
-.pyre/
+.pyre/mylogfile.log 
