@@ -58,6 +58,6 @@ jobs:
           source: "docker-compose.yaml, nginx/default.conf"
           target: "~/app/"
           script: |
-            sudo docker pull da-semenov/flask-app
+            sudo docker pull dasemenov/flask-app
             sudo docker stop $(sudo docker ps -a -q)
-            sudo docker run --rm -d -p 5000:5000 da-semenov/flask-app
+            sudo docker run --rm -d -p 5000:5000 dasemenov/flask-app
